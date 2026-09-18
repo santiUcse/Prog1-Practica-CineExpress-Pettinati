@@ -21,7 +21,7 @@ if (app.Environment.IsDevelopment())
 {
     app.MapOpenApi();
 }
-
+dir
 // 3. Activar la política de CORS
 app.UseCors("PermitirLiveServer");
 

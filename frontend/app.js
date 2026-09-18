@@ -1,4 +1,4 @@
-const API_URL = "http://localhost:5000/api/peliculas";
+const API_URL = "http://localhost:5170/api/peliculas";
 
 let peliculas = [];
 let favoritos = JSON.parse(localStorage.getItem("favoritos_peliculas")) || [];
